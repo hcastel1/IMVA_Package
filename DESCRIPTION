@@ -1,0 +1,23 @@
+Package: IMVA
+Title: Interactive Exploratory Multivariate Analysis Shiny app
+Version: 0.0.0.9000
+Authors@R: "Henry Castellanos <henrycastellanos5@gmail.com> [aut,cre]"
+Description: This app was inspired by the FactoShiny package which implements           	multivariate analysis (unsupervised learning / data mining) methods: 		Principal Component Analysis, Cluster Analysis and Multiple Correspondence 		Analysis from the FactoMineR package in a shiny application. In turn, this 		app implements multivariate analysis methods from the FactoMineR package with 	interactive output plots and data objects in addition to reactivity from user 	inputs typical of a shiny app.
+Depends: R (>= 3.3.3)
+Imports:
+    shiny,
+    dplyr,
+    rbokeh,
+    plotly,
+    DT,
+    ggfortify,
+    ggplot2,
+    ggrepel,
+    cluster,
+    FactoMineR,
+    factoextra,
+    dplyr    
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
